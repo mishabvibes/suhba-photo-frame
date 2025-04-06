@@ -311,7 +311,7 @@ export default function PhotoFramingAdminPage() {
                             <Settings className="h-4 w-4" />
                           </Link>
                           <Link 
-                            href={`/photoframing?frame=${frame._id}`}
+                            href={`/photoframe?frame=${frame._id}`}
                             target="_blank"
                             className="p-1.5 rounded-md text-emerald-400 hover:text-emerald-300 hover:bg-emerald-900/30 transition-colors"
                             title="Preview frame"
