@@ -341,7 +341,7 @@ export default function AdminLayout({
                     <ol className="flex items-center space-x-2">
                       <li>
                         <div>
-                          <Link href="/admin/dashboard" className="text-gray-400 hover:text-gray-300">
+                          <Link href="/admin/photoframing" className="text-gray-400 hover:text-gray-300">
                             <Home className="flex-shrink-0 h-4 w-4" aria-hidden="true" />
                           </Link>
                         </div>
