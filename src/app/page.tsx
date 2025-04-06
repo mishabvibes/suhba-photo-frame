@@ -10,12 +10,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white font-[family-name:var(--font-geist-sans)]">
       {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        {/* Decorative patterns */}
-        {/* <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 right-0 w-full h-full bg-[url('/pattern.svg')] bg-repeat opacity-20"></div>
-        </div> */}
-
+      <section className="relative h-auto md:h-screen flex items-center overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
