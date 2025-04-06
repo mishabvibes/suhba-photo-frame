@@ -1443,7 +1443,7 @@ const UserPhotoFraming: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-gray-600 text-sm">
-              © {new Date().getFullYear()} Photo Framing Studio. All rights reserved.
+              © {new Date().getFullYear()} SUHBA Union. All rights reserved.
             </p>
           </div>
           
