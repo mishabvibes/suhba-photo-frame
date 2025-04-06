@@ -68,7 +68,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-gray-900">600+</h3>
-                    <p className="text-gray-600">Active members worldwide</p>
+                    <p className="text-gray-600">Active Members </p>
                   </div>
                 </div>
               </div>
