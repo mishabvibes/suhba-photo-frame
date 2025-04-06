@@ -16,27 +16,28 @@ import {
   Layers,
   HelpCircle,
   FileText,
-  User
+  User,
+  Plus,
 } from 'lucide-react';
 
 // Navigation items with expanded structure
 const navigationItems = [
   { 
     name: 'Dashboard', 
-    href: '/admin/dashboard', 
+    href: '/admin/photoframing', 
     icon: <BarChart2 className="w-5 h-5" />,
     description: 'Overview and statistics'
   },
   { 
-    name: 'Photo Framing', 
-    href: '/admin/photoframing', 
+    name: 'All Frames', 
+    href: '/admin/photoframing/all', 
     icon: <ImageIcon className="w-5 h-5" />,
     description: 'Manage photo frames'
   },
   { 
-    name: 'Settings', 
-    href: '/admin/settings', 
-    icon: <Settings className="w-5 h-5" />,
+    name: 'Create New', 
+    href: '/admin/photoframing/create', 
+    icon: <Plus className="w-5 h-5" />,
     description: 'System configuration'
   }
 ];
