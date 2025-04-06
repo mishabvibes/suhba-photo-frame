@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation'; // Remove useSearchParams since it's no longer needed
 import { 
   Clock, 
   RefreshCw, 
@@ -20,8 +20,8 @@ export default function AdminLogin() {
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const redirectTo = searchParams.get('from') || '/admin/photoframing';
+  // Removed: const searchParams = useSearchParams();
+  // Removed: const redirectTo = searchParams.get('from') || '/admin/photoframing';
 
   // Add subtle animation on mount
   useEffect(() => {
@@ -45,7 +45,8 @@ export default function AdminLogin() {
         // Set auth cookie with secure options
         const maxAge = rememberMe ? 7 * 24 * 60 * 60 : 86400; // 7 days or 1 day
         document.cookie = `admin-auth=true; path=/; max-age=${maxAge}; SameSite=Strict`;
-        router.push(redirectTo);
+        // Hardcode redirect to /admin/photoframing
+        router.push('/admin/photoframing');
       } else {
         setError('Invalid credentials');
       }
