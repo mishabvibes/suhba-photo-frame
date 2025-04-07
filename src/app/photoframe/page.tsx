@@ -1194,7 +1194,7 @@ const UserPhotoFraming: React.FC = () => {
                         This is how your framed photo will look. If you're happy with it, click "Generate Final Image" to create your shareable picture.
                       </p>
 
-                      {/* <div className="mt-4">
+                      <div className="mt-4">
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                           Personalize Your Frame
                         </label>
@@ -1213,7 +1213,7 @@ const UserPhotoFraming: React.FC = () => {
                             Your name will appear on the frame
                           </p>
                         )}
-                      </div> */}
+                      </div>
                     </div>
                   </div>
 

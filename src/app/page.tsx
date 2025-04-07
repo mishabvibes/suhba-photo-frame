@@ -92,7 +92,7 @@ export default function Home() {
         <div className="flex items-center gap-3">
           {/* Admin Login Button */}
           <Link 
-            href="/admin" 
+            href="/admin/photoframing" 
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-2 ${currentStyle.adminButton}`}
             aria-label="Admin Login"
           >
